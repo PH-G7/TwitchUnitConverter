@@ -5,7 +5,7 @@ A Twitch integration bot that allows you to compute common conversions between m
 
 # Explanation
 
-When the bot has started, it will start listening to chat messages in the channel listed in the settings.txt file. Whenever a user types one of the conversion commands in chat, the bot will respond with the unit conversion.
+When the bot has started, it will listen to chat messages in the channel listed in the settings.txt file. Whenever a user types one of the conversion commands in chat, the bot will respond with the unit conversion.
 
 ---
 
@@ -35,7 +35,7 @@ This bot is controlled by a settings.txt file, which looks like:
 | Nickname             | The Username of the bot account.                                  | "phg_bot" |
 | Authentication       | The OAuth token for the bot account.                              | "oauth:pivogip8ybletucqdz4pkhag6itbax" |
 
-*Note that the example OAuth token is not an actual token, nor is the OWMKey an actual API key, but merely a generated string to give an indication what it might look like.*
+*Note that the example OAuth token is not an actual token but a generated string to indicate what it might look like.*
 
 I got my real OAuth token from https://twitchtokengenerator.com/.
 
